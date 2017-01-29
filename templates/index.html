@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>SenseWeb</title>
+</head>
+
+<body>
+	<p>Temperature: {{ temp }} F</p>
+	<p>Humidity:  {{ humid  }} %</p>
+	<hr>
+	<h3>Scroll Text:</h3>
+	<form action="/scroll" method="POST">
+		<input type='text' name='text'>
+		<input type='submit' value='Submit'>
+	</form>
+	<br>
+	<a href='/clear'>Clear Text</a>
+
+</body>
+</html>
